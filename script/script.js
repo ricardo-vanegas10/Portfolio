@@ -114,22 +114,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
         <h3 class="my-4 bg-dark text-white text-center social">Redes Sociales</h3>
         <ul class="studies d-flex justify-content-center gap-2">
-            <li><a href="https://www.facebook.com/rick1095/">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
-                        width="40" height="40" />
-                </a></li>
-            <li><a href="https://www.instagram.com/ricardo.vanegas10/"><img
-                        src="https://static-00.iconduck.com/assets.00/instagram-icon-512x512-85ckvxzj.png"
-                        width="40" height="40"></a></li>
-            <li><a href="https://www.instagram.com/ricardo.vanegas10/"></a></li>
-            <li><a href="https://www.linkedin.com/in/ricardo-vanegas-6892a71ab/"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                        width="40" height="40" /></a>
-            </li>
-            <li><a href="https://github.com/ricardo-vanegas10"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        width="40" height="40" /></a></li>
-        </ul>
+        <li><a href="https://www.facebook.com/rick1095/" target="_blank">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
+                    width="40" height="40" />
+            </a></li>
+        <li><a href="https://www.instagram.com/ricardo.vanegas10/" target="_blank"><img
+                    src="https://static-00.iconduck.com/assets.00/instagram-icon-512x512-85ckvxzj.png"
+                    width="40" height="40"></a></li>
+        <li><a href="https://www.instagram.com/ricardo.vanegas10/" target="_blank"></a></li>
+        <li><a href="https://www.linkedin.com/in/ricardo-vanegas-6892a71ab/" target="_blank"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                    width="40" height="40" /></a>
+        </li>
+        <li><a href="https://github.com/ricardo-vanegas10" target="_blank"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    width="40" height="40" /></a></li>
+    </ul>
 `;
                 asideElement.innerHTML = `<h3 class="my-4 text-center">Experiencia laboral</h3>
                 <h5>Auxiliar de ingeniero civil</h5>
@@ -329,22 +329,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
             <h3 class="my-4 bg-dark text-white text-center social">Social networks</h3>
             <ul class="studies d-flex justify-content-center gap-2">
-                <li><a href="https://www.facebook.com/rick1095/">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
-                            width="40" height="40" />
-                    </a></li>
-                <li><a href="https://www.instagram.com/ricardo.vanegas10/"><img
-                            src="https://static-00.iconduck.com/assets.00/instagram-icon-512x512-85ckvxzj.png"
-                            width="40" height="40"></a></li>
-                <li><a href="https://www.instagram.com/ricardo.vanegas10/"></a></li>
-                <li><a href="https://www.linkedin.com/in/ricardo-vanegas-6892a71ab/"><img
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                            width="40" height="40" /></a>
-                </li>
-                <li><a href="https://github.com/ricardo-vanegas10"><img
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                            width="40" height="40" /></a></li>
-            </ul>
+            <li><a href="https://www.facebook.com/rick1095/" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
+                        width="40" height="40" />
+                </a></li>
+            <li><a href="https://www.instagram.com/ricardo.vanegas10/" target="_blank"><img
+                        src="https://static-00.iconduck.com/assets.00/instagram-icon-512x512-85ckvxzj.png"
+                        width="40" height="40"></a></li>
+            <li><a href="https://www.instagram.com/ricardo.vanegas10/" target="_blank"></a></li>
+            <li><a href="https://www.linkedin.com/in/ricardo-vanegas-6892a71ab/" target="_blank"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                        width="40" height="40" /></a>
+            </li>
+            <li><a href="https://github.com/ricardo-vanegas10" target="_blank"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        width="40" height="40" /></a></li>
+        </ul>
 `;
                 asideElement.innerHTML = `<h3 class="my-4 text-center">Work experience</h3>
                 <h5>Civil engineer assistant</h5>
@@ -447,4 +447,5 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
+
 
