@@ -144,17 +144,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         identificar y resolver problemas que surjan en el proyecto.</li>
                 </ul>
                 <br>
-                // <h5>Auxiliar de ingeniero civil</h5>
-                // <p>B3D Asociados Consultores y Construcciones S.A.S.</p>
-                // <p>Enero 2021 - Diciembre 2021</p>
-                // <ul>
-                //     <li>Responder por la ejecución y manejo de la obra a su cargo, en los aspectos administrativos.</li>
-                //     <li>Revisar las especificaciones técnicas establecidas y la normativa legal correspondiente,
-                //         efectuando los respectivos controles de calidad.</li>
-                //     <li>Estudiar y conocer a cabalidad los planos y especificaciones de la obra y solicitar autorización
-                //         para realizar modificaciones al proyecto cuando este lo requiera.</li>
-                // </ul>
-                // <br>
+
+                
                 <h5>Auxiliar de ingeniero civil</h5>
                 <p>Construcciones Piedrahita</p>
                 <p>Junio 2017 - Agosto 2017</p>
@@ -356,15 +347,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <li>Apply technical knowledge of civil engineering principles and practices to identify and resolve problems that arise in the project.</li>
                 </ul>
                 <br>
-                // <h5>Civil engineer assistant</h5>
-                // <p>B3D Asociados Consultores y Construcciones S.A.S.</p>
-                // <p>January 2021 - December 2021</p>
-                // <ul>
-                //     <li>Responsible for the execution and management of the work in charge, in administrative aspects.</li>
-                //     <li>Review the established technical specifications and the corresponding legal regulations, carrying out the respective quality controls.</li>
-                //     <li>Study and fully understand the plans and specifications of the work and request authorization to make modifications to the project when required.</li>
-                // </ul>
-                // <br>
+              
                 <h5>Civil engineer assistant</h5>
                 <p>Piedrahita Constructions</p>
                 <p>June 2017 - August 2017</p>
