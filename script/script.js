@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
     </ul>
 `;
       asideElement.innerHTML = `<h3 class="my-4 text-center">Experiencia laboral</h3>
-      <h5>Front-End</h5>
+      <h5>Desarrollador Front-End</h5>
       <p>Syntactic Academia</p>
       <p>Diciembre 2023</p>
       <ul>
@@ -362,7 +362,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </ul>
 `;
       asideElement.innerHTML = `<h3 class="my-4 text-center">Work experience</h3>
-      <h5>Front-End</h5>
+      <h5>Front-End Developer</h5>
       <p>Syntactic Academy</p>
       <p>December 2023</p>
       <ul>
