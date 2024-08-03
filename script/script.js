@@ -138,7 +138,26 @@ document.addEventListener('DOMContentLoaded', function () {
     </ul>
 `;
       asideElement.innerHTML = `<h3 class="my-4 text-center">Experiencia laboral</h3>
-    
+      <h5>Ingeniero Civil</h5>
+                <p>Hidrotecnia Ingenieria Ltda</p>
+                <p>Abril 2024 - Presente</p>
+                <ul>
+                    <li>Preparar, organizar y revisar toda la documentación técnica del proyecto, incluyendo planos,
+                        especificaciones y otros documentos necesarios.</li>
+                    <li>Elaborar estimaciones de costos, gestionar presupuestos y controlar los gastos del proyecto.</li>
+                    <li>Realizar programación de proyectos, gestionando cronogramas, recursos y presupuestos.</li>
+                </ul>
+                <br>
+
+      <h5>Front-End</h5>
+      <p>Syntactic Academia</p>
+      <p>Diciembre 2023</p>
+      <ul>
+          <li>Desarrollo Front-end</li>
+          <li>Desarrollo de piezas digitales, mailings, y landings.</li>
+          <li>Maquetación y desarrollo de piezas mailings.</li>
+      </ul>
+      <br>
                 <h5>Auxiliar de ingeniero civil</h5>
                 <p>Meg Obras SAS</p>
                 <p>Enero 2022 - Julio 2022</p>
@@ -151,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         identificar y resolver problemas que surjan en el proyecto.</li>
                 </ul>
                 <br>
-              <h5>Auxiliar de ingeniero civil</h5>
+                <h5>Auxiliar de ingeniero civil</h5>
                 <p>B3D Asociados Consultores y Construcciones S.A.S.</p>
                 <p>Enero 2021 - Diciembre 2021</p>
                 <ul>
@@ -161,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <li>Estudiar y conocer a cabalidad los planos y especificaciones de la obra y solicitar autorización
                         para realizar modificaciones al proyecto cuando este lo requiera.</li>
                 </ul>
-                <br> 
+                <br>
                 <h5>Auxiliar de ingeniero civil</h5>
                 <p>Construcciones Piedrahita</p>
                 <p>Junio 2017 - Agosto 2017</p>
@@ -178,20 +197,21 @@ document.addEventListener('DOMContentLoaded', function () {
       portfolioElement.innerHTML = `    <h2 class="text-white text-center">Portafolio</h2>
                 <p class="text-white text-center"><strong>Un vistazo a mis trabajos más relevantes</strong></p>
     
-                <div id="demo" class="carousel slide" data-bs-ride="carousel">
-    
-                    <!-- Indicators/dots -->
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-                    </div>
-                    
-                    <!-- The slideshow/carousel -->
-                    <div class="carousel-inner">
+   <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
                     <div class="carousel-item active advice">
                         <img src="./img/advice-app.png" alt="Advice app" class="d-block" style="width:100%">
                         <div class="carousel-caption">
@@ -209,6 +229,16 @@ document.addEventListener('DOMContentLoaded', function () {
                                     años</strong></p>
                         </div>
                     </div>
+
+                    <div class="carousel-item color-palette">
+                        <img src="./img/color-palette.png" alt="color-palette" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3><a href="https://ricardo-vanegas10.github.io/Color-palette/"
+                                    target="_blank">Color Palette generator</a></h3>
+                            <p><strong>Un generador de paleta de colores hecho en React JS</strong></p>
+                        </div>
+                    </div>
+
                     <div class="carousel-item hivley">
                         <img src="./img/hivley.png" alt="Hivley" class="d-block" style="width:100%">
                         <div class="carousel-caption">
@@ -221,7 +251,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         <div class="carousel-caption">
                             <h3 class="text-dark"><a href="https://ricardo-vanegas10.github.io/new-homepage-main/"
                                     target="_blank">Página de inicio principal</a></h3>
-                            <p class="text-dark"><strong>Maquetación de página responsiva básica usando Bootstrap</strong></p>
+                            <p class="text-dark"><strong>Maquetación de página responsiva básica usando
+                                    Bootstrap</strong></p>
                         </div>
                     </div>
                     <div class="carousel-item metaverse">
@@ -236,20 +267,20 @@ document.addEventListener('DOMContentLoaded', function () {
                         <img src="./img/netflix.png" alt="Netflix" class="d-block" style="width:100%">
                         <div class="carousel-caption">
                             <h3><a href="https://ricardo-vanegas10.github.io/Netflix/" target="_blank">Netflix</a></h3>
-                            <p class="text-white"><strong>Maquetación básica usando HTML, CSS, Javascript y Tailwind</strong></p>
+                            <p class="text-white"><strong>Maquetación básica usando HTML, CSS, Javascript y
+                                    Tailwind</strong></p>
                         </div>
                     </div>
                 </div>
 
-                    
-                    <!-- Left and right controls/icons -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </button>
-                  </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
                   `;
 
     } else if (idioma === 'ingles') {
@@ -354,7 +385,26 @@ document.addEventListener('DOMContentLoaded', function () {
         </ul>
 `;
       asideElement.innerHTML = `<h3 class="my-4 text-center">Work experience</h3>
-   
+      <h5>Civil Engineer</h5>
+<p>Hidrotecnia Ingenieria Ltda</p>
+<p>April 2024 - Present</p>
+<ul>
+<li>Prepare, organize and review all technical documentation for the project, including plans,
+specifications and other necessary documents.</li>
+<li>Prepare cost estimates, manage budgets and control project expenses.</li>
+<li>Perform project programming, managing schedules, resources and budgets.</li>
+</ul>
+<br>
+
+      <h5>Front-End</h5>
+      <p>Syntactic Academy</p>
+      <p>December 2023</p>
+      <ul>
+          <li>Front-end development</li>
+          <li>Development of digital pieces, mailings, and landings.</li>
+          <li>Layout and development of mailing pieces.</li>
+      </ul>
+      <br>
                 <h5>Civil engineer assistant</h5>
                 <p>Meg Obras SAS</p>
                 <p>January 2022 - July 2022</p>
@@ -372,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <li>Review the established technical specifications and the corresponding legal regulations, carrying out the respective quality controls.</li>
                     <li>Study and fully understand the plans and specifications of the work and request authorization to make modifications to the project when required.</li>
                 </ul>
-                <br> 
+                <br>
                 <h5>Civil engineer assistant</h5>
                 <p>Piedrahita Constructions</p>
                 <p>June 2017 - August 2017</p>
@@ -385,72 +435,87 @@ document.addEventListener('DOMContentLoaded', function () {
       portfolioElement.innerHTML = `    <h2 class="text-white text-center">Portfolio</h2>
                 <p class="text-white text-center"><strong>A look at my most relevant works</strong></p>
     
-                <div id="demo" class="carousel slide" data-bs-ride="carousel">
-    
-                    <!-- Indicators/dots -->
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-                    </div>
-                    
-                    <!-- The slideshow/carousel -->
-                    <div class="carousel-inner">
-                      <div class="carousel-item active advice">
+                  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active advice">
                         <img src="./img/advice-app.png" alt="Advice app" class="d-block" style="width:100%">
                         <div class="carousel-caption">
-                          <h3><a href="https://ricardo-vanegas10.github.io/advice-generator-app-main/" target="_blank">Advice generator app main</a></h3>
-                          <p><strong>An API advices App that uses Tailwind CSS</strong></p>
+                            <h3><a href="https://ricardo-vanegas10.github.io/advice-generator-app-main/"
+                                    target="_blank">Advice generator app main</a></h3>
+                            <p><strong>An API Tips App Using Tailwind CSS</strong></p>
                         </div>
-                      </div>
-                      <div class="carousel-item ageapp">
+                    </div>
+                    <div class="carousel-item ageapp">
                         <img src="./img/age-app.png" alt="Age app" class="d-block" style="width:100%">
                         <div class="carousel-caption">
-                          <h3 class="text-dark"><a href="https://ricardo-vanegas10.github.io/age-calculador-app/" target="_blank">Age calculator app</a></h3>
-                          <p class="text-dark"><strong>A basic calculator that calculates age in days, months and years</strong></p>
-                        </div> 
-                      </div>
-                      <div class="carousel-item hivley">
+                            <h3 class="text-dark"><a href="https://ricardo-vanegas10.github.io/age-calculador-app/"
+                                    target="_blank">Age calculator app</a></h3>
+                            <p class="text-dark"><strong>A basic calculator that calculates age in days, months and years</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item color-palette">
+                        <img src="./img/color-palette.png" alt="color-palette" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3><a href="https://ricardo-vanegas10.github.io/Color-palette/"
+                                    target="_blank">Color Palette generator</a></h3>
+                            <p><strong>A color palette generator made in React JS</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item hivley">
                         <img src="./img/hivley.png" alt="Hivley" class="d-block" style="width:100%">
                         <div class="carousel-caption">
-                          <h3><a href="https://ricardo-vanegas10.github.io/Hivley/" target="_blank">Hivley</a></h3>
-                          <p><strong>Basic HTML, CSS and Javascript layout using Tailwind</strong></p>
-                        </div>  
-                      </div>
-                      <div class="carousel-item homepage">
+                            <h3><a href="https://ricardo-vanegas10.github.io/Hivley/" target="_blank">Hivley</a></h3>
+                            <p><strong>Basic HTML, CSS and Javascript layout using Tailwind</strong></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item homepage">
                         <img src="./img/homepage-main.png" alt="Homepage main" class="d-block" style="width:100%">
                         <div class="carousel-caption">
-                          <h3 class="text-dark"><a href="https://ricardo-vanegas10.github.io/new-homepage-main/" target="_blank">Homepage main</a></h3>
-                          <p class="text-dark"><strong>Basic Responsive Page Layout Using Bootstrap</strong></p>
-                        </div>  
-                      </div>
-                      <div class="carousel-item metaverse">
+                            <h3 class="text-dark"><a href="https://ricardo-vanegas10.github.io/new-homepage-main/"
+                                    target="_blank">Página de inicio principal</a></h3>
+                            <p class="text-dark"><strong>Basic Responsive Page Layout Using Bootstrap</strong></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item metaverse">
                         <img src="./img/metaverse.png" alt="Metaverse" class="d-block" style="width:100%">
                         <div class="carousel-caption">
-                          <h3><a href="https://ricardo-vanegas10.github.io/Metaverse/" target="_blank">Metaverse</a></h3>
-                          <p><strong>Basic layout created with HTML, CSS and Bootstrap</strong></p>
-                        </div>  
-                      </div>
-                      <div class="carousel-item netflix">
+                            <h3><a href="https://ricardo-vanegas10.github.io/Metaverse/" target="_blank">Metaverso</a>
+                            </h3>
+                            <p><strong>Basic layout created with HTML, CSS and Bootstrap</strong></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item netflix">
                         <img src="./img/netflix.png" alt="Netflix" class="d-block" style="width:100%">
                         <div class="carousel-caption">
-                          <h3><a href="https://ricardo-vanegas10.github.io/Netflix/" target="_blank">Netflix</a></h3>
-                          <p class="text-white"><strong>Basic layout using HTML, CSS, Javascript and Tailwind</strong></p>
-                        </div>  
-                      </div>
+                            <h3><a href="https://ricardo-vanegas10.github.io/Netflix/" target="_blank">Netflix</a></h3>
+                            <p class="text-white"><strong>Basic layout using HTML, CSS, Javascript and Tailwind CSS</strong></p>
+                        </div>
                     </div>
-                    
-                    <!-- Left and right controls/icons -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </button>
-                  </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
                   `;
     }
   }
