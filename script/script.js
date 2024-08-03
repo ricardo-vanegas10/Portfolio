@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <div class="carousel-caption">
                             <h3><a href="https://ricardo-vanegas10.github.io/Color-palette/"
                                     target="_blank">Color Palette generator</a></h3>
-                            <p><strong>Un generador de paleta de colores hecho en React JS</strong></p>
+                            <p class="text-white"><strong>Un generador de paleta de colores hecho en React JS</strong></p>
                         </div>
                     </div>
 
@@ -472,7 +472,7 @@ specifications and other necessary documents.</li>
                         <div class="carousel-caption">
                             <h3><a href="https://ricardo-vanegas10.github.io/Color-palette/"
                                     target="_blank">Color Palette generator</a></h3>
-                            <p><strong>A color palette generator made in React JS</strong></p>
+                            <p class="text-white"><strong>A color palette generator made in React JS</strong></p>
                         </div>
                     </div>
 
